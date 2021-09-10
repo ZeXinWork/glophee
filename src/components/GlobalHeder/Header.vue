@@ -58,6 +58,8 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+@import '@/style/viriables.scss';
+@import '@/style/mixins.scss';
 .header {
   width: 100%;
   &__logo {
@@ -74,12 +76,12 @@ export default defineComponent({
     margin-left: 3rem;
     text-align: center;
     &__item {
-      font-family: Helvetica Neue LT Std;
+      @include font-HelveticaStd;
       font-weight: 300;
-      font-size: 1.8rem;
+      font-size: $bold-size;
       line-height: 2.2rem;
       text-align: center;
-      color: #0e4754;
+      color: $bg-color;
       cursor: pointer;
       text-decoration: none;
       &--active {

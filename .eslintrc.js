@@ -11,5 +11,6 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'linebreak-style': ['off', 'windows'],
+    'max-len': ['error', { code: 300 }], // 此处为具体添加代码
   },
 };

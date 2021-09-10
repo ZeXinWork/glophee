@@ -3,3 +3,11 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
+@mixin font-Helvetica {
+  font-family: Helvetica;
+}
+
+@mixin font-HelveticaStd {
+  font-family: Helvetica Neue LT Std;
+}
