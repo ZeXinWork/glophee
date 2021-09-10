@@ -36,7 +36,8 @@
     "sass-loader": "^8.0.2",
     "typescript": "~4.1.5",
     "vue-cli-plugin-commitlint": "~1.0.12",
-    "lint-staged": "^10.5.4"
+    "lint-staged": "^10.5.4",
+    "prettier": "2.2.1"
   },
   "config": {
     "commitizen": {
