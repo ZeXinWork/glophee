@@ -62,13 +62,11 @@ export default defineComponent({
 @import '@/style/mixins.scss';
 .footer {
   width: 100%;
-  position: absolute;
   height: 33.1rem;
-  left: 0rem;
-  bottom: 0rem;
   background: $bg-color;
   padding: 6rem 14.3rem 0 15.3rem;
   box-sizing: border-box;
+
   &__container {
     display: flex;
     justify-content: space-between;

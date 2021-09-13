@@ -11,3 +11,16 @@
 @mixin font-HelveticaStd {
   font-family: Helvetica Neue LT Std;
 }
+
+@mixin flex-coloumnCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,19 +1,13 @@
 <template>
-  <global-header></global-header>
-  <router-view />
-  <Footer></Footer>
+  <Home></Home>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue';
-import GlobalHeader from './components/GlobalHeder/Header.vue';
-import Footer from './components/Footer/Footer.vue';
-import 'normalize.css';
-import './style/index.scss';
+import Home from './views/Project/Home.vue';
 
 export default defineComponent({
   components: {
-    GlobalHeader,
-    Footer,
+    Home,
   },
 });
 </script>
